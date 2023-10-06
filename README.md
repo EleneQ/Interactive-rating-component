@@ -1,4 +1,4 @@
-- Live Site URL: https://eleneq.github.io/Interactive-rating-component/
+Live Site URL: https://eleneq.github.io/Interactive-rating-component/
 
 ### Built with
 
