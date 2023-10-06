@@ -1,0 +1,99 @@
+@import "./variables";
+@import "./generals";
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 22.5rem;
+  background: linear-gradient(
+    to bottom,
+    $clr-neutral-700 5%,
+    $clr-neutral-800
+  );
+  color: $clr-neutral-300;
+  padding: 2rem;
+  border-radius: 40px;
+}
+
+.card-star {
+  background-color: $clr-neutral-600;
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 50%;
+  padding: 1em;
+  margin-bottom: 2rem;
+}
+
+.card-title {
+  color: $clr-neutral-100;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  font-size: $fs-600;
+}
+
+.rate-btns-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem auto 1.5rem auto;
+}
+
+.rate-btn {
+  background-color: $clr-neutral-600;
+  color: $clr-neutral-300;
+  width: 4em;
+  height: 4em;
+  border: none;
+  border-radius: 50%;
+  font-size: $fs-300;
+  transition: background-color 0.2s, color 0.2s;
+
+  &:hover {
+    background-color: $clr-neutral-200;
+    color: $clr-neutral-100;
+  }
+}
+
+.rate-btn-clicked {
+  background-color: $clr-primary-100;
+  color: $clr-neutral-100;
+}
+
+.submit-btn {
+  width: 100%;
+  background-color: $clr-primary-100;
+  color: $clr-neutral-100;
+  letter-spacing: 0.1em;
+  border: none;
+  border-radius: 25px;
+  padding-block: 0.8125em;
+  transition: background-color 0.2s, color 0.2s;
+
+  &:hover {
+    background-color: $clr-neutral-100;
+    color: $clr-primary-100;
+  }
+}
+
+.rating-result {
+  color: $clr-primary-100;
+  background-color: $clr-neutral-600;
+  border-radius: 20px;
+  width: 13em;
+  margin: auto;
+  margin-block: 1.7rem;
+  padding: 0.3rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.ty-card-img-center {
+  display: block;
+  margin: auto;
+}
